@@ -42,7 +42,7 @@ const personalMovieDB = {
                 personalMovieDB.genres[i - 1] = prompt(`Ваш любимый жанр под номером ${i}`, '');
             }
         }
-        personalMovieDB.genres.forEach((element, index) => {
+        personalMovieDB.genres.forEach((item, index) => {
             console.log(`Любимый жанр #${index+1} - это ${personalMovieDB.genres[index]}`);
         });
     },
